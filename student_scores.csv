@@ -1,5 +1,5 @@
-name	score_1	score_2	score_3
-Bob	    67	99	69
-Mary	85	78	77
-Jane	77	77	88
-Mike	68	97	86
+name,score_1,score_2,score_3
+Bob,67,99,69
+Mary,85,78,77
+Jane,77,77,88
+Mike,68,97,86
