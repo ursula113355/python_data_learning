@@ -1,20 +1,23 @@
-# Netflix data analysis
+# Netflix Data Analysis
   
 ## Dataset
-- Netflix titles dataset(Kaggle)
+Netflix titles dataset from kaggle
 
-## Goal
-- Netflix content distribution
-
-## Analysis
-1. Distribution of Movies vs TV series
-2. Release year distribution
-3. Country distribution
+## Project Goal
+Explore the distribution of netflix content including:
+- Movies vs TV Shows
+- Release year trends
+- Country distribution
 
 ## Tools
 - Python
 - Pandas
 - Matplotlib
+
+## Key findings
+- Netflix has more movies than TV Shows
+- Content increased rapidly after 2015
+- The United States dominates the content production
 
 ![Type Distribution](type_distribution.png)
 ![Release Year Distribution](release_year_distribution.png)
