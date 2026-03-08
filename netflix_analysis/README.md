@@ -1,17 +1,21 @@
-# Project
-- Netflix data analysis
+# Netflix data analysis
   
-# Dataset
+## Dataset
 - Netflix titles dataset(Kaggle)
 
-# Goal
-- Analyze distribution of Movies vs. TV Series
+## Goal
+- Netflix content distribution
 
-# Tools
-- Python
-- Pandas
-
-# Analysis
+## Analysis
 1. Distribution of Movies vs TV series
 2. Release year distribution
 3. Country distribution
+
+## Tools
+- Python
+- Pandas
+- Matplotlib
+
+![Type Distribution](type_distribution.png)
+![Release Year Distribution](release_year_distribution.png)
+![Country Distribution](country_distribution.png)
