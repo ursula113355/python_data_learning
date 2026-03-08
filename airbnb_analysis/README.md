@@ -8,6 +8,8 @@
 
 ## Tool
 - Pandas
+- Matplotlib
 
-## Status
-- Project initialized. Dataset loaded and columns inspected.
+## Analysis
+- Price distribution
+- Average price by room type
