@@ -12,3 +12,8 @@
 - clean price data
 - analyze price distribution
 - analyze room type
+
+# Price column cleaning
+- remove"$"
+- remove","
+- converted price column to float
