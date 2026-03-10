@@ -27,3 +27,12 @@ Pandas: df.head(10)
 ## What sql is good at
 1. SQL is good at filtering grouping and summarizing data directly from database
 2. Compare to Pandas, SQL is usually used before analysis to extract required dataset
+
+## SQL thinking pattern
+Most sql queries follow the following patterns
+SELECT column
+FROM table
+WHERE column_condition
+GROUP BY column
+ORDER BY column ASC/DESC
+LIMIT OFFSET
