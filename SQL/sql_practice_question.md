@@ -12,7 +12,7 @@
 1. What is the mostly used app?
 2. Which app has the highest population of people between 20-40?
 3. Which country has the least population?
-    SELECT country, population
+    SELECT country, COUNT(*)
     FROM table
     ORDER BY population ASC
     LIMIT 1;
@@ -21,13 +21,12 @@
 6. What is the average salary of people work in restaurant
     SELECT AVG(salary)
     FROM table
-    WHERE workplace LIKE "restaurant"
+    WHERE workplace LIKE "restaurant";
 7. What are the mostly visited parks of people from each city?
 8. What is the time that has most of the people under 18 visited our shopping mall?
 9.  What is the mostly used apps for each generation?
-    SELECT app_name, COUNT(*)
+    SELECT app_name, COUNT(*), generation
     FROM table
-    GROUP BY generation
-    ORDER BY COUNT(*)
-    LIMIT 1
+    GROUP BY generation,app_name
+    ORDER BY COUNT(*) DESC;
 10. How many employees does each restaurant has?
