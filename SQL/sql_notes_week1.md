@@ -13,11 +13,6 @@ SQL: SELECT * FROM table
 LIMIT 10
 Pandas: df.head(10)
 
-## Questions to practice SQL thinking
-1. What are the ages of the top 10 users who spent most of the money on our platform?
-2. What is the most often used platform for the users over 20?
-3. Where is the most often visited place for users who live in Boston?
-
 ## What I learned today
 1. SELECT FROM: chose column
 2. WHERE: filter row
@@ -28,3 +23,7 @@ Pandas: df.head(10)
 7. INNER JOIN ON:connect with other tables which has the same key
 
 - sql's function is similar to pandas,but it works directly with databases
+
+## What sql is good at
+1. SQL is good at filtering grouping and summarizing data directly from database
+2. Compare to Pandas, SQL is usually used before analysis to extract required dataset

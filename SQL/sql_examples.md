@@ -55,3 +55,47 @@ SELECT *
 FROM table
 GROUP BY col_1
 HAVING col_2 = 2
+
+# SQL data analysis example
+1. 统计每个城市用户数量
+SELECT COUNT(users), city
+FROM table
+GROUP BY city;
+
+2. 统计每个城市的平均年龄
+SELECT AVG(age)，city
+FROM table
+GROUP BY city;
+
+3. 找出年龄最大的用户
+SELECT MAX(age), user
+FROM table;
+
+4. 找出用户数量最多的城市
+SELECT COUNT(*), city
+FROM table
+GROUP BY city
+ORDER BY COUNT(*) DESC
+LIMIT 1;
+
+5. 统计每个平台用户数量
+SELECT COUNT(*),platform
+FROM users
+GROUP BY platform;
+
+# SQL vs Pandas(groupby analysis)
+SQL:
+SELECT city, COUNT(*)
+FROM table
+GROUP BY COUNT(*)
+
+Pandas:
+df.groupby("city").size()
+
+SQL:
+SELECT city, AVG(age)
+FROM table
+GROUP BY city
+
+Pandas:
+df.groupby("city")["age"].mean()
