@@ -13,6 +13,22 @@ SQL: SELECT * FROM table
 LIMIT 10
 Pandas: df.head(10)
 
+SQL:
+SELECT city,COUNT(*)
+FROM users
+GROUP BY city;
+
+Pandas:
+df.groupby("city").size()
+
+SQL:
+SELECT city, AVG(salary)
+FROM users
+GROUP BY city
+
+Pandas:
+df.groupby("city")["salary"].mean()
+
 ## What I learned today
 1. SELECT FROM: chose column
 2. WHERE: filter row
